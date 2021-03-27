@@ -14,12 +14,22 @@
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
             app:destination="@id/SegitigaFragment" />
+        <action
+            android:id="@+id/action_HomeFragment_to_PersegiPanjangFragment"
+            app:destination="@+id/PersegiPanjangFragment"/>
     </fragment>
     <fragment
         android:id="@+id/SegitigaFragment"
         android:name="com.example.myapplication.SegitigaFragment"
         android:label="Segitiga Fragment"
-        tools:layout="@layout/activity_segitiga">
+        tools:layout="@layout/fragment_segitiga">
+
+    </fragment>
+    <fragment
+        android:id="@+id/PersegiPanjangFragment"
+        android:name="com.example.myapplication.SegitigaFragment"
+        android:label="PersegiPanjang Fragment"
+        tools:layout="@layout/fragment_persegi_panjang">
 
 
     </fragment>

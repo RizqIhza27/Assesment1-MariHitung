@@ -22,20 +22,6 @@
 
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/about"
-        android:layout_width="220dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/btn_primary"
-        android:fontFamily="@font/roboto_medium"
-        android:text="About"
-        android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/segitiga" />
-
-    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/persegipjg"
         android:layout_width="220dp"
         android:layout_height="45dp"
