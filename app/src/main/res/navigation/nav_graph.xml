@@ -11,12 +11,13 @@
         android:label="Home Fragment"
         tools:layout="@layout/fragment_home">
 
-        <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SegitigaFragment" />
+
         <action
             android:id="@+id/action_HomeFragment_to_PersegiPanjangFragment"
             app:destination="@+id/PersegiPanjangFragment"/>
+        <action
+            android:id="@+id/action_HomeFragment_to_SegitigaFragment"
+            app:destination="@id/SegitigaFragment" />
     </fragment>
     <fragment
         android:id="@+id/SegitigaFragment"
@@ -27,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/PersegiPanjangFragment"
-        android:name="com.example.myapplication.SegitigaFragment"
+        android:name="com.example.myapplication.PersegiPanjangFragment"
         android:label="PersegiPanjang Fragment"
         tools:layout="@layout/fragment_persegi_panjang">
 

@@ -18,7 +18,7 @@ class HomeFragment : Fragment() {
 
         view.findViewById<Button>(R.id.segitiga).setOnClickListener{
             NavHostFragment.findNavController(this@HomeFragment)
-                    .navigate(R.id.action_FirstFragment_to_SecondFragment)
+                    .navigate(R.id.action_HomeFragment_to_SegitigaFragment)
 
         }
         view.findViewById<Button>(R.id.persegipjg).setOnClickListener{

@@ -9,8 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".SegitigaActivity"></activity>
-        <activity android:name=".PersegiPanjangActivity" />
+
         <activity android:name=".HomeActivity" >
 
         </activity>
